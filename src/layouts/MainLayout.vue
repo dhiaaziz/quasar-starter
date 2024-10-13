@@ -23,6 +23,7 @@
       :width="280"
       :mini="miniMode"
       :mini-width="72"
+      class="bg-slate-100"
     >
       <q-list>
         <q-item-label header> Essential Links </q-item-label>
@@ -36,6 +37,8 @@
     </q-drawer>
 
     <q-page-container>
+      <div class="text-red-500">aziz</div>
+      <div class="text-blue-500">Maya</div>
       <router-view />
     </q-page-container>
   </q-layout>
